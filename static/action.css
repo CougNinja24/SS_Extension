@@ -1,0 +1,25 @@
+.blue {
+  color: #8eb3d4;
+}
+.pink {
+  color: #f0cee2;
+}
+img {
+  vertical-align: middle;
+}
+
+h2 {
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.fullsize {
+  width: 400px;
+  height: 100%;
+  border: 4px solid gray;
+  border-radius: 10px;
+}
+li {
+  line-height: 1.5em;
+  font-size: larger;
+  vertical-align: middle;
+}

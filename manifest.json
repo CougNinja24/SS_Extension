@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "Scorestream Extra",
+  "description": "Add colors and automatic tab renaming to Scorestream",
+  "author": "Andy Lemberger",
+  "version": "1.0",
+  "action": {
+    "default_popup": "static/action.html",
+    "default_icon": "assets/scorestream.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.scorestream.com/gameManager"],
+      "js": ["scripts/content/sstyle_vanilla.js"]
+    }
+  ],
+
+  "permissions": ["activeTab"]
+}
