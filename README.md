@@ -7,8 +7,8 @@
 
   ---
 
-### Two Version:
+#### Two Version:
 1. Vanilla JS
 2. w/ jQuery (Not used)
    
-### Current Version: 1.1
+#### Current Version: 1.1
